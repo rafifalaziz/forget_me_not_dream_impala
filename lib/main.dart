@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 const primaryColor = Color(0xff00C897);
+const backgroundColor = Color(0xffEAF9FF);
 
 void main() {
   runApp(const MyApp());
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: backgroundColor,
       ),
       home: const MyHomePage(title: 'Forget me not Dream Impala'),
     );

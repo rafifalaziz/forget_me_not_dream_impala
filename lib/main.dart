@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:forget_me_not_dream_impala/widgets/activity_card.dart';
 
 const primaryColor = Color(0xff00C897);
 const backgroundColor = Color(0xffEAF9FF);
@@ -111,6 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            ActivityCard(),
             const Text(
               'You have pushed the button this many times:',
             ),
